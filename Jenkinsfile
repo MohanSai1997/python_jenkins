@@ -4,7 +4,7 @@ pipeline {
     stage('running the python file') {
       agent any
       steps {
-        sh 'print("this is ")'
+        sh 'python one.py'
       }
     }
   }
