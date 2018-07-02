@@ -1,10 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('running the python file') {
+    stage('Stage 1') {
       agent any
       steps {
-        sh 'python one.py'
+        bat 'python one.py'
       }
     }
   }
